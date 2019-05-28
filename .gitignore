@@ -1,0 +1,6 @@
+# Ignore binaries wherever they are
+/**/toml
+# Don't ignore folders with the same names as the binaries
+!/**/toml.go
+# Ignore swap files 
+/**/.*.swp
